@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+  background-color: rgb(246, 246, 246);
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.App form {
+  margin-bottom: 25px;
+}
+
+.App img {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.App input {
+  line-height: 50px;
+  width: 300px;
+  font-size: large;
+  border-radius: 15px;
+}
+
+.App button {
+  margin-left: 5px;
+  line-height: 50px;
+  font-size: large;
+  background-color: lightgrey;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.wikiSearchResultDiv {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.giphySearchResultDiv {
+  margin-top: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-inline: 10px;
+}
+
+.trackDiv {
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.errDiv {
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.wiki {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+}
+
+.giphy {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+}
+
+
